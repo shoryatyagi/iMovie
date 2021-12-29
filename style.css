@@ -1,0 +1,154 @@
+.main{
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+h1{
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin: auto;
+
+    padding: 3px;
+    font-family: 'Pushster', cursive;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    word-spacing: 20px;
+    margin: 0%;
+}
+nav{
+    padding: 25px;
+    float: center;
+    word-spacing: 20px;
+    overflow: hidden;
+    background-color: rgb(37, 37, 37);
+}
+nav a{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: oswald ;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 10px;
+ 
+}
+a:hover{
+    color: lightcoral;
+    text-decoration: none;
+    font: size 30px;
+}
+a select option {
+    background-color:rgb(246, 247, 229);
+    color: black;
+    font-size: 20px;
+    padding-top: 5px;
+  
+}
+a select option:hover{
+    background-color: white;
+    color: black;
+}
+a select{
+    background-color:rgb(37, 37, 37);
+    border-width: 1spx;
+    color: ivory;
+    font-size: 25px;
+
+
+}
+.option:visited{
+    background-color: lightcoral;
+    color: lightcoral;
+    overflow: hidden;
+    border-style: none;
+    border-width: 0ch;
+}
+#search{
+    height: 35px;
+    width: 200px;
+    border-radius: 20px;
+    padding-top: auto;
+    color: black;
+    font-family: Source Sans Pro    ;
+    font-size: 22px;
+    text-align: left;
+    padding-left: 8px;
+   
+}
+.movie{
+    color: black;
+    font-size: 30px;
+    padding-left: 200px;
+    overflow: hidden;
+}
+.holder{
+    width: 224px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-width: 20px;
+    border-color: rgb(5, 5, 5);
+    border-radius: 20px;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-left: 90px;
+    box-shadow: 12px 12px 50px rgb(200, 212, 136);
+    float: left;
+    
+}
+.imageholder{
+    width: 200px;
+    height: 285px;
+    padding-left: 10px;
+    box-shadow: #ff2525;
+    border-radius: 50px;
+    object-fit: cover;
+
+}
+.image{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+.holder:hover{
+    width: 250px;
+    height: 300px;
+    position: relative;
+    animation-name: ease;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+@keyframes ease {
+    from{
+        width: 227px;
+
+    }
+    to{
+        width: 250px;
+
+    }
+}
+.movie{
+    background-color: rgb(243, 242, 178);
+    width: 700px;
+    height: 480px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 50px rgb(212, 243, 126);
+    margin-left: 290px;
+    margin-top: 70px;
+    padding-left: 0px;
+
+
+}
+.moviename{
+    padding-left: 50px;
+}
+.hell{
+    background-color: cornflowerblue;
+}
